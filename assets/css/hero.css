@@ -16,31 +16,31 @@ body {
 .hero {
     width: 100vw;
     height: 100vh;
+    background-color: #F2B950;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px
+}
+
+/* .hero {
+    width: 100vw;
+    height: 100vh;
     background-color: #111111;
     background-image: linear-gradient(32deg,rgba(8, 8, 8, 0.74) 30px, transparent);
     background-size: 60px 60px;
     background-position: -5px -5px;
-}
-
-.decorative-line {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.decorative-line hr {
-    color: #111111;
-    width: 80vw;
-}
+} */
 
 .blackcat-image {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 2vh;
 }
 
 .blackcat-image img {
     width: auto;
-    height: 20rem;
-    margin-top: 23%;
+    height: 50rem;
+    margin-top: 50%;
 }
+

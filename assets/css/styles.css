@@ -49,12 +49,12 @@ display: flex;
 }
 
 .nav-logo__wordmark {
-width: 4rem;
+width: 20rem;
 }
 
 .nav-logo__icon {
-width: 1.5rem;
-height: 1.5rem;
+width: 4rem;
+height: 4rem;
 }
 
 .container {
@@ -304,17 +304,19 @@ border: none;
 }
 
 .menu-button-icon {
-width: 1em;
-height: 1em;
+    width: 1em;
+    height: 1em;
+    color: white;
 }
 
 .menu-button-text {
-flex-flow: column;
-justify-content: flex-start;
-align-items: flex-end;
-height: 1.125em;
-display: flex;
-overflow: hidden;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 1.125em;
+    display: flex;
+    overflow: hidden;
+    color: white;
 }
 
 .icon-wrap {
